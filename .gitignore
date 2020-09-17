@@ -1,0 +1,5 @@
+SocialNetProject.sln
+.vs
+bin
+obj
+*.db
