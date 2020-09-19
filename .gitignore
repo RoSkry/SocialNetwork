@@ -3,3 +3,7 @@ SocialNetProject.sln
 bin
 obj
 *.db
+SocialNetProject.csproj
+*.user
+appsettings.json
+.vscode
