@@ -14,5 +14,16 @@ namespace SocialNetProject.Helpers
             response.Headers.Add("Access-Contol-Expose-Headers", "Application-Error");
             response.Headers.Add("Access-Contol-Allow-Origin", "*");
         }
+
+        public static int CalculateAge(this DateTime date)
+        {
+            var age = DateTime.Today.Year - date.Year;
+            if (date.AddYears(age) > DateTime.Today)
+            {
+                age--;
+            }
+
+            return age;
+        }
     }
 }
