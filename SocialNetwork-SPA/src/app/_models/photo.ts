@@ -3,6 +3,5 @@ export interface Photo {
   url: string;
   description: string;
   dateAdded: Date;
-  lastActive: Date;
   isMain: boolean;
 }
